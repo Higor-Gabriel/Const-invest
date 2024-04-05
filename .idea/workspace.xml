@@ -5,8 +5,64 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="634cfa08-73a3-486f-b2a2-16b787da298f" name="Changes" comment="frontend">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ConstanciaTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ConstanciaTests.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ConstanciaTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ConstanciaTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/.idea/pythonProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/backend_constancia/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/backend_constancia/backend_constancia/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/backend_constancia/backend_constancia/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/backend_constancia/backend_constancia/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/backend_constancia/backend_constancia/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/backend_constancia/backend_constancia/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/backend_constancia/clientes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/backend_constancia/clientes/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/backend_constancia/clientes/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/backend_constancia/clientes/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/backend_constancia/clientes/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/backend_constancia/clientes/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/backend_constancia/clientes/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/backend_constancia/clientes/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/backend_constancia/clientes/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/backend_constancia/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/backend_constancia/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/constancia_frontend" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClientesList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClientesList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/constancia_frontend/.gitignore" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +78,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Project/constancia_frontend" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -105,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712317422903</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="frontend">
+      <option name="closed" value="true" />
+      <created>1712319232530</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712319232530</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

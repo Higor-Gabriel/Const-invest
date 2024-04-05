@@ -26,7 +26,6 @@ class RegistrarUsuarioViewsets(APIView):
         # Extrair dados do request
         username = request.data.get('username')
         password = request.data.get('password')
-
         # Verificar se o usuário já existe
         if User.objects.filter(username=username).exists():
             return Response({'error': 'Nome de usuário já está em uso'}, status=status.HTTP_400_BAD_REQUEST)

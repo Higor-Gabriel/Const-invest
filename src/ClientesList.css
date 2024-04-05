@@ -1,0 +1,115 @@
+/* Container da lista */
+.clientes-list-container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 70px;
+    text-align: center; /* Centraliza o texto horizontalmente */
+  }
+  
+  /* Tabela */
+  .clientes-list-table {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  /* Cabeçalho da tabela */
+  .clientes-list-th {
+    background-color: #f2f2f2;
+    border-bottom: 2px solid #ddd;
+    padding: 8px 16px;
+    text-align: center; /* Centraliza o texto horizontalmente */
+    font-weight: bold;
+  }
+  
+  /* Linhas da tabela */
+  .clientes-list-tr {
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  /* Linha da tabela com hover */
+  .clientes-list-tr:hover {
+    background-color: #f7f7f7;
+  }
+  
+  /* Células da tabela */
+  .clientes-list-td {
+    padding: 8px 16px;
+    text-align: center;
+  }
+  
+  /* Célula com valor positivo */
+  .clientes-list-td-positivo {
+    color: green;
+  }
+  
+  /* Célula com valor negativo */
+  .clientes-list-td-negativo {
+    color: red;
+  }
+  
+  /* Ícone de aviso */
+  .clientes-list-icone-aviso {
+    color: orange;
+    margin-right: 8px;
+  }
+  
+  /* Filtro */
+  .clientes-list-filtro {
+    margin-bottom: 16px;
+  }
+  
+  .clientes-list-filtro input {
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Botões de ação */
+  .clientes-list-acoes {
+    text-align: right;
+  }
+  
+  .clientes-list-botao {
+    margin-left: 8px;
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Media queries */
+  @media (max-width: 768px) {
+    .clientes-list-container {
+      padding: 10px;
+    }
+  
+    .clientes-list-table {
+      font-size: 14px;
+    }
+  }
+  /* CSS atualizado */
+  .clientes-list-filtro {
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  
+  .clientes-list-filtro input {
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 8px;
+  }
+  
+  .clientes-list-filtro button {
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
